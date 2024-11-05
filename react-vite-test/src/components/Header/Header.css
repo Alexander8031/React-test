@@ -1,0 +1,49 @@
+@import "/src/components/nullstyle.css";
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
+
+header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav__home {
+  font-family: "Karla";
+  font-weight: 700;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 1);
+  flex-basis: 9%;
+  display: flex;
+  justify-content: center;
+}
+
+.nav__counter {
+  font-family: "Karla";
+  font-weight: 700;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 1);
+  flex-basis: 9%;
+  display: flex;
+  justify-content: center;
+}
+
+.nav__input {
+  font-family: "Karla";
+  font-weight: 700;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 1);
+  flex-basis: 9%;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 1020px;
+    margin: 0px auto;
+}
