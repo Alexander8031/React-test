@@ -1,19 +1,20 @@
 import "./Header.css";
+import { Link } from 'react-router-dom'
 
 export default function Header() {
   return (
     <header>
       <div className="container">
         <nav>
-          <a href="#" className="nav__home">
+          <Link to="/" className="nav__home">
             Home
-          </a>
-          <a href="#" className="nav__counter">
+          </Link>
+          <Link to="/counter" className="nav__counter">
             Counter
-          </a>
-          <a href="#" className="nav__input">
+          </Link>
+          <Link to="/input" className="nav__input">
             Input
-          </a>
+          </Link>
         </nav>
       </div>
     </header>
